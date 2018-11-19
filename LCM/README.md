@@ -62,15 +62,15 @@ https://groups.google.com/forum/#!forum/lcm-users
   	
 	cd lcm-python
   	
-	python setup.py install     //for using Python
+	python setup.py install     #for using Python
   	
-	python3 setup.py install    //for using Python3.5
+	python3 setup.py install    #for using Python3.5
   	
 	sudo update-alternatives --config python3
     	
 	>> select python3.6
   	
-	python3 setup.py install    //for using Python3.6
+	python3 setup.py install    #for using Python3.6
   
 3. Download Pycharm
 
