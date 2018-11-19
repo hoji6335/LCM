@@ -11,7 +11,7 @@ https://groups.google.com/forum/#!forum/lcm-users
 
 # LCM INSTALL
 
-0. if you want to use Python 3.6, run this code
+###0. if you want to use Python 3.6, run this code
 	
 	sudo add-apt-repository ppa:deadsnakes/ppa
 	
@@ -29,7 +29,7 @@ https://groups.google.com/forum/#!forum/lcm-users
 	
 	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
 
-1. install required package for LCM
+###1. install required package for LCM
 
 	sudo apt install build-essential
 	
@@ -48,7 +48,7 @@ https://groups.google.com/forum/#!forum/lcm-users
 	sudo apt-get install openjdk-7-jdk
   
   
-2. Download from lcm-proj github & Make LCM
+###2. Download from lcm-proj github & Make LCM
 	
 	cd Downloads
 	
@@ -82,9 +82,9 @@ https://groups.google.com/forum/#!forum/lcm-users
 	
 	python3 setup.py install 
   
-3. Download Pycharm
+###3. Download Pycharm
 
-4. Set Pycharm path
+###4. Set Pycharm path
   	
 	sudo gedit ~/.bashrc
 	
