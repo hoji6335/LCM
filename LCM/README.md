@@ -1,7 +1,10 @@
 ========================================================================================================================================
 # Reference
+
 https://lcm-proj.github.io/
+
 https://lcm-proj.github.io/multicast_setup.html
+
 https://groups.google.com/forum/#!forum/lcm-users
 ========================================================================================================================================
 
@@ -62,15 +65,15 @@ https://groups.google.com/forum/#!forum/lcm-users
   	
 	cd lcm-python
   	
-	python setup.py install     #for using Python
+	python setup.py install     for using Python
   	
-	python3 setup.py install    #for using Python3.5
+	python3 setup.py install    for using Python3.5
   	
 	sudo update-alternatives --config python3
     	
 	>> select python3.6
   	
-	python3 setup.py install    #for using Python3.6
+	python3 setup.py install    for using Python3.6
   
 3. Download Pycharm
 
@@ -107,8 +110,6 @@ https://groups.google.com/forum/#!forum/lcm-users
     
 5. Edit logconvert file
   	
-	#!/bin/sh
-  	
 	export PYTHONPATH=$/home/hong/Downloads/lcm_log/lcm2mat/lcm-log2smat/python:${LCMTYPEPATH}:${PYTHONPATH}
   	
 	exec /usr/bin/python -m lcmlog2smat.log_to_smat $1 -o $2
@@ -116,9 +117,7 @@ https://groups.google.com/forum/#!forum/lcm-users
 6. Add LCMTYPEPATH in ~/.bashrc
   	
 	gedit ~/.bashrc
-  
-    	#LCM PATH
-    	
+     	
 	export LCMTYPEPATH=~/Downloads/lcm-1.3.1/examples/types  # in types folder, .lcm & lcm-gen folder
   
 7. In lcm2mat folder, run 
