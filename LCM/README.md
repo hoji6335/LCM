@@ -133,6 +133,14 @@ https://groups.google.com/forum/#!forum/lcm-users
 
 ## Windows 10
 
+####	DefaultTTL을 TTL = 1 설정
+
+	regedit
+	HKEY_LOCAL_MACHINE/SYSTEM/CurrentControlSet/Services/Tcpip/Parameter
+	새로만들기 DWORD
+	이름 : DefaultTTL , 값 : 1
+
+
 
 # LCM LOG
 
@@ -150,8 +158,8 @@ https://groups.google.com/forum/#!forum/lcm-users
   	
 	make
   
-    		if you want to uninstall, run in lcm-log2smat folder
-    		sudo make clean
+    	>> if you want to uninstall, run in lcm-log2smat folder
+    	sudo make clean
     
 ####	5. Edit logconvert file
   	
