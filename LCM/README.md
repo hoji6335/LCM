@@ -140,8 +140,22 @@ https://groups.google.com/forum/#!forum/lcm-users
 	이름 : DefaultTTL , 값 : 1
 
 
+# LCM spy
 
-# LCM LOG
+####	In terminal
+	
+	lcm-spy
+	
+	
+# LCM logger
+
+####	In terminal
+	
+	lcm-logger FILENAME
+
+
+
+# LCM to Mat
 
 ####	1. install python-scipy
 	
@@ -177,4 +191,6 @@ https://groups.google.com/forum/#!forum/lcm-users
 ####	7. In lcm2mat folder, run 
   	
 	./configure PATH/TO/LCMLOGGERFILE PATH/TO/LCM2MATFILE
+	
+
 
