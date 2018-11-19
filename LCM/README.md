@@ -29,7 +29,7 @@ https://groups.google.com/forum/#!forum/lcm-users
 	
 	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
 
-###1. install required package for LCM
+####	1. install required package for LCM
 
 	sudo apt install build-essential
 	
@@ -48,7 +48,7 @@ https://groups.google.com/forum/#!forum/lcm-users
 	sudo apt-get install openjdk-7-jdk
   
   
-###2. Download from lcm-proj github & Make LCM
+####	2. Download from lcm-proj github & Make LCM
 	
 	cd Downloads
 	
@@ -82,9 +82,9 @@ https://groups.google.com/forum/#!forum/lcm-users
 	
 	python3 setup.py install 
   
-###3. Download Pycharm
+####	3. Download Pycharm
 
-###4. Set Pycharm path
+####	4. Set Pycharm path
   	
 	sudo gedit ~/.bashrc
 	
@@ -98,15 +98,15 @@ https://groups.google.com/forum/#!forum/lcm-users
 
 # LCM LOG
 
-1. install python-scipy
+####	1. install python-scipy
 	
 	sudo apt install python-scipy
 
-2. download lcm2mat.zip file
+####	2. download lcm2mat.zip file
 
-3. change path code (yoojin -> YOUR_COM) in lcm2mat
+####	3. change path code (yoojin -> YOUR_COM) in lcm2mat
 
-4. In lcm-log2smat folder
+####	4. In lcm-log2smat folder
   	
 	sudo make BUILD_PREFIX=/usr/local
   	
@@ -115,19 +115,19 @@ https://groups.google.com/forum/#!forum/lcm-users
     		if you want to uninstall, run in lcm-log2smat folder
     		sudo make clean
     
-5. Edit logconvert file
+####	5. Edit logconvert file
   	
 	export PYTHONPATH=$/home/hong/Downloads/lcm_log/lcm2mat/lcm-log2smat/python:${LCMTYPEPATH}:${PYTHONPATH}
   	
 	exec /usr/bin/python -m lcmlog2smat.log_to_smat $1 -o $2
   
-6. Add LCMTYPEPATH in ~/.bashrc
+####	6. Add LCMTYPEPATH in ~/.bashrc
   	
 	gedit ~/.bashrc
      	
 	export LCMTYPEPATH=~/Downloads/lcm-1.3.1/examples/types  # in types folder, .lcm & lcm-gen folder
   
-7. In lcm2mat folder, run 
+####	7. In lcm2mat folder, run 
   	
 	./configure PATH/TO/LCMLOGGERFILE PATH/TO/LCM2MATFILE
 
