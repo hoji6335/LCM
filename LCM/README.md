@@ -11,7 +11,7 @@ https://groups.google.com/forum/#!forum/lcm-users
 
 # LCM INSTALL
 
-##0. if you want to use Python 3.6, run this code
+#0. if you want to use Python 3.6, run this code
 	
 	sudo add-apt-repository ppa:deadsnakes/ppa
 	
