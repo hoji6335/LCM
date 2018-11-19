@@ -8,14 +8,14 @@ https://groups.google.com/forum/#!forum/lcm-users
 # LCM INSTALL
 
 0. if you want to use Python 3.6, run this code
-	sudo add-apt-repository ppa:deadsnakes/ppa
-	sudo apt-get update
-	sudo apt-get install python3.6
-	sudo apt-get install python3-pip
-	sudo apt-get install python3.6-dev
-	sudo update-alternatives --config python3
-	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 1
-	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
+		sudo add-apt-repository ppa:deadsnakes/ppa
+		sudo apt-get update
+		sudo apt-get install python3.6
+		sudo apt-get install python3-pip
+		sudo apt-get install python3.6-dev
+		sudo update-alternatives --config python3
+		sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 1
+		sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
 
 1. install required package for LCM
 	sudo apt install build-essential
