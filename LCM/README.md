@@ -86,7 +86,9 @@ https://groups.google.com/forum/#!forum/lcm-users
 
 ####	4. Set Pycharm path
   	
-	sudo gedit ~/.bashrc
+	gedit ~/.bashrc
+	
+	>> Add
 	
 	PATH=$PATH:/home/YOURNAME/Downloads/pycharm-community-2018.2.4/bin
 
@@ -124,6 +126,8 @@ https://groups.google.com/forum/#!forum/lcm-users
 ####	6. Add LCMTYPEPATH in ~/.bashrc
   	
 	gedit ~/.bashrc
+	
+	>> Add
      	
 	export LCMTYPEPATH=~/Downloads/lcm-1.3.1/examples/types  # in types folder, .lcm & lcm-gen folder
   
