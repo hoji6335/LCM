@@ -95,6 +95,29 @@ https://groups.google.com/forum/#!forum/lcm-users
 
 # LCM Network Setting
 ## Ubuntu
+
+####	1. Set ip & subnet mask
+		ip address range 참고
+		ip = 10.0.0.x
+		subnet mask = 255.0.0.0	
+
+####	2. Add route
+		sudo route
+enp2s0 network를 사용하고 있으므로 menual의 lo 대신 enp2s0 사용
+sudo ifconfig enp0s25 multicast
+sudo route add -net 224.0.0.0 netmask 240.0.0.0 dev enp0s25
+ttl setting
+make ttl = 1
+sudo sysctl net.ipv4.ip_default_ttl=1
+Kernel UDP receive buffer sizing
+sudo sysctl -w net.core.rmem_max=2097152
+sudo sysctl -w net.core.rmem_default=2097152
+Firewall(ufw) disable
+sudo ufw status verbose
+sudo ufw disable	
+export LCM default url
+export LCM_DEFAULT_URL=udpm://239.255.76.67:7667?ttl=1
+
 ## Windows 10
 
 
