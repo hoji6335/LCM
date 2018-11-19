@@ -6,6 +6,7 @@ https://lcm-proj.github.io/
 https://lcm-proj.github.io/multicast_setup.html
 
 https://groups.google.com/forum/#!forum/lcm-users
+
 ========================================================================================================================================
 
 # LCM INSTALL
@@ -65,15 +66,21 @@ https://groups.google.com/forum/#!forum/lcm-users
   	
 	cd lcm-python
   	
-	python setup.py install     for using Python
+	>> for using Python
+	
+	python setup.py install
   	
-	python3 setup.py install    for using Python3.5
+	>> for using Python3.5
+	
+	python3 setup.py install
   	
 	sudo update-alternatives --config python3
     	
-	>> select python3.6
+	(select python3.6)
   	
-	python3 setup.py install    for using Python3.6
+	>> for using Python3.6
+	
+	python3 setup.py install 
   
 3. Download Pycharm
 
