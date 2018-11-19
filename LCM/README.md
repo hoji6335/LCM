@@ -1,4 +1,3 @@
-=====================================================================
 # Reference
 
 https://lcm-proj.github.io/
@@ -7,7 +6,6 @@ https://lcm-proj.github.io/multicast_setup.html
 
 https://groups.google.com/forum/#!forum/lcm-users
 
-=====================================================================
 
 # LCM INSTALL
 
