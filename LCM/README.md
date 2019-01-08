@@ -15,6 +15,8 @@ https://groups.google.com/forum/#!forum/lcm-users
 	
 	sudo apt-get update
 	
+	sudo apt-get install python-pip
+	
 	sudo apt-get install python3.6
 	
 	sudo apt-get install python3-pip
