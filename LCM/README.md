@@ -25,9 +25,9 @@ https://groups.google.com/forum/#!forum/lcm-users
 	
 	sudo update-alternatives --config python3
 	
-	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.5 1
+	sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.5 1
 	
-	sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.6 2
+	sudo update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.6 2
 
 ####	1. install required package for LCM
 
@@ -86,7 +86,7 @@ https://groups.google.com/forum/#!forum/lcm-users
 	
 	>> Add
 	
-	PATH=$PATH:/home/YOURNAME/Downloads/pycharm-community-2018.2.4/bin
+	PATH=$PATH:/home/   YOURNAME   /Downloads/pycharm-community-2018.2.4/bin
 
 
 # LCM Network Setting
@@ -131,6 +131,10 @@ https://groups.google.com/forum/#!forum/lcm-users
 		
 	>> Add
 	export LCM_DEFAULT_URL=udpm://239.255.76.67:7667?ttl=1
+	
+####	7. one command
+	
+	sudo ifconfig enp0s25 multicast && sudo route add -net 224.0.0.0 netmask 240.0.0.0 dev enp0s25 && sudo sysctl net.ipv4.ip_default_ttl=1 && sudo sysctl -w net.core.rmem_max=2097152 && sudo sysctl -w net.core.rmem_default=2097152 && export LCM_DEFAULT_URL=udpm://239.255.76.67:7667?ttl=1 
 
 ## Windows 10
 
